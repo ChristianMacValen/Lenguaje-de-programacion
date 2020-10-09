@@ -1,0 +1,45 @@
+//Christian Macias Valencia
+//Universidad tecnologica de Tlaxcala
+//tsu. MAAU.
+// examen de recuperacion, primer parcial.
+
+#include <stdio.h>
+#include <stdio.h>
+
+int main ()
+{
+ int n1,n2,r;
+ 
+  printf("escribe tu primer numero: \n");
+  scanf("%d", &n1);
+  
+  rintf("escribe tu segundo numero: \n");
+  scanf("%d", &n2);
+  r=(n1%n2);
+  
+  
+  if(r==0){
+  printf("%.d es multiplo de %.d\n",n1,n2);
+  else{
+  printf("%.d no es multiplo de %.d\n",n1,n2);
+  }
+  }
+  if(n1%2==0){
+  printf("el numero %d es par\n",n1);
+  else{
+  printf("el numero %d es impar\n",n1);
+  }
+  }
+  if(n1>n2){
+   max=n1;
+   else{
+   max=n2;
+   }
+  }
+  printf("el numero mayor es: %d.\n",max);
+    
+    
+  
+system("pause");
+return 0;
+}
